@@ -21,7 +21,7 @@ function FeatureSection() {
 
   return (
     <section className="flex flex-col justify-center px-20 py-32 w-full bg-stone-100 max-md:px-5 max-md:py-24 max-md:max-w-full">
-      <div className="flex flex-wrap justify-between items-start self-center max-w-full min-h-[174px] rotate-[3.141592653589793rad] w-[1280px]">
+      <div className="flex flex-wrap justify-between items-start self-center max-w-full min-h-[174px] w-[1280px]">
         <h2 className="flex-1 shrink text-5xl font-medium tracking-tighter text-rose-600 leading-[58px] min-h-[174px] min-w-[240px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
           Your Style Companion with a Unique Round Screen
         </h2>
@@ -29,7 +29,7 @@ function FeatureSection() {
           Step into Style and Connectivity with itel Circle 1: Featuring a unique round screen design and an included lanyard, this device lets you carry style effortlessly. Capture every moment with the camera and flash, and stay connected on the go with the inbuilt BT Caller. Available in two captivating colors, it complements your style while keeping you chic and connected.
         </p>
       </div>
-      <div className="flex flex-wrap gap-10 justify-between items-start mt-24 w-full rounded-xl rotate-[3.141592653589793rad] max-md:mt-10 max-md:max-w-full">
+      <div className="flex flex-wrap gap-10 justify-between items-start mt-24 w-full rounded-xl max-md:mt-10 max-md:max-w-full">
         {features.map((feature, index) => (
           <div key={index} className="flex flex-col justify-center min-w-[240px] w-[340px]">
             <img loading="lazy" src={feature.icon} className="object-contain w-14 aspect-square" alt="" />
