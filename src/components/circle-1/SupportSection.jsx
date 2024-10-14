@@ -1,4 +1,7 @@
 import React from 'react';
+import supportImg1 from '../../assets/supportImg1.png'
+import supportImg2 from '../../assets/supportImg2.png'
+import supportImg3 from '../../assets/supportImg3.png'
 
 function SupportSection() {
   const supportChannels = [
