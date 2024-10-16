@@ -13,7 +13,7 @@ import OtherProductsSection from "../components/circle-1/OtherProductsSection";
 import SocialMediaSection from "../components/circle-1/SocialMediaSection";
 import FAQSection from "../components/circle-1/FAQSection";
 import Footer from "../components/circle-1/Footer";
-import LanyardSection from "../components/LanyardSection";
+import LanyardSection from "../components/circle-1/LanyardSection";
 
 function CircleOne() {
   return (
