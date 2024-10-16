@@ -14,6 +14,8 @@ import SocialMediaSection from "../components/circle-1/SocialMediaSection";
 import FAQSection from "../components/circle-1/FAQSection";
 import Footer from "../components/circle-1/Footer";
 import LanyardSection from "../components/circle-1/LanyardSection";
+import NearestStoreSection from "../components/circle-1/NearestStoreSection";
+import SimilarProducts from "../components/circle-1/SimilarProducts";
 
 function CircleOne() {
   return (
@@ -29,6 +31,8 @@ function CircleOne() {
       <SpecificationsSection />
       <ReviewsSection />
       <CompareModelsSection />
+      <NearestStoreSection />
+      <SimilarProducts />
       <SupportSection />
       <OtherProductsSection />
       <SocialMediaSection />
