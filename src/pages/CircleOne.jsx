@@ -16,6 +16,8 @@ import Footer from "../components/circle-1/Footer";
 import LanyardSection from "../components/circle-1/LanyardSection";
 import NearestStoreSection from "../components/circle-1/NearestStoreSection";
 import SimilarProducts from "../components/circle-1/SimilarProducts";
+import CarouselComponent from "../components/circle-1/Carousel";
+import PowerFeatures from "../components/circle-1/PowerFeatures";
 
 function CircleOne() {
   return (
@@ -28,6 +30,8 @@ function CircleOne() {
       <LanyardSection />
       <BluetoothSection />
       <KingVoiceSection />
+      <PowerFeatures />
+      <CarouselComponent />
       <SpecificationsSection />
       <ReviewsSection />
       <CompareModelsSection />

@@ -4,9 +4,9 @@ import storeBg from "../../assets/Group 1973339742.png"; // replace with the cor
 function NearestStoreSection() {
   return (
     <section className="flex justify-center items-center w-full py-4">
-      <div className="bg-[#f8f6f3] w-full max-w-7xl px-6">
+      <div className="bg-[#f8f6f3] w-full max-w-[1260px] px-6">
         <div
-          className="relative w-full h-64 rounded-xl bg-cover bg-center"
+          className="relative w-full h-64 rounded-xl bg-contain max-w-[1260px] bg-center"
           style={{
             backgroundImage: `url(${storeBg})`,
           }}
@@ -26,7 +26,7 @@ function NearestStoreSection() {
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth="2"
-                stroke="currentColor"
+                stroke="red"
                 className="w-5 h-5"
               >
                 <path

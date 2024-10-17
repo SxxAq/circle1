@@ -9,7 +9,7 @@ function SocialMediaSection() {
   const socialMediaImages = [img1, img2, img3, img4];
 
   return (
-    <section className="flex overflow-hidden flex-col px-16 pt-14 mt-32 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
+    <section className="flex overflow-hidden flex-col px-16 mt-16 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
       <div className="flex gap-6 items-start min-h-[408px]">
         <div className="flex flex-col flex-1 shrink w-full basis-0 min-h-[408px] min-w-[240px] max-md:max-w-full">
           <div className="flex flex-wrap justify-between items-start w-full max-md:max-w-full">
