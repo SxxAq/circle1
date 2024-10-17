@@ -4,7 +4,7 @@ import circleLogo from "../../assets/circle-1-logo.svg";
 import { ArrowRight } from "lucide-react";
 function HeroSection() {
   return (
-    <section className="relative flex flex-col min-h-screen bg-gradient-to-r from-[#EBE8E2] to-[#F97561]">
+    <section className="relative flex flex-col min-h-screen bg-gradient-to-r from-[#EBE8E2] to-[#e7a59b]">
       {/* Background circles */}
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="grid grid-cols-5 gap-8 transform rotate-180">

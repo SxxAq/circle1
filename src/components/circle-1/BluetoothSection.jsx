@@ -23,11 +23,11 @@ function BluetoothSection() {
       </div>
 
       {/* Images Section */}
-      <div className="relative z-10 flex justify-center items-end ">
+      <div className="relative z-10 flex justify-center items-end">
         {/* Phone Image */}
-        <img src={img1} alt="Phone" className="w-4 lg:w-56" />
+        <img src={img2} alt="Device" className="w-[28rem] mr-[-5rem]" />
+        <img src={img1} alt="Phone" className="w-[33rem]" />
         {/* Device Image */}
-        <img src={img2} alt="Device" className="w-32 lg:w-44 ml-4" />
       </div>
     </div>
   );

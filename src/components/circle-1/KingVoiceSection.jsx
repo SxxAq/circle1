@@ -1,6 +1,7 @@
 import React from "react";
 import phoneImg from "../../assets/circle-1-phone.png";
 import frequencyLogo from "../../assets/frequency.png";
+
 const voiceFeatures = [
   {
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/baf74423b63776a15a2ef7d56b1d3f32b777f64e12222ad08a635ae7993061c6?placeholderIfAbsent=true&apiKey=95b7b2aa9950440b926ba3614b9a318a",
@@ -30,35 +31,33 @@ const voiceFeatures = [
 
 function KingVoiceSection() {
   return (
-    <section className="flex flex-col px-6 py-16 bg-stone-900">
+    <section className="relative flex flex-col px-6 py-16 bg-stone-900">
       {/* Header Section */}
       <div className="text-center mb-16">
         <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/f60dc6b618582312d2323723a61c8c90f4deb15c236c6c9469ab2593ff645279?placeholderIfAbsent=true&apiKey=95b7b2aa9950440b926ba3614b9a318a"
           alt=""
-          className="object-cover  inset-0 size-full"
+          className="object-cover inset-0 size-full"
         />
-        <div className="">
-          <h2 className="text-4xl font-medium text-white mb-4">
+
+        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 text-center">
+          <h2 className="absolute top-0 left-1/2 text-3xl transform -translate-x-1/2 text-center font-medium mt-10 text-transparent bg-clip-text bg-gradient-to-r from-[#FF998F] to-[#FFF7E8]">
             A Phone That Speaks For You
           </h2>
-          <div className="text-[80px] uppercase font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-orange-200">
+          <div className="text-[270px] text-center uppercase font-bold whitespace-nowrap mt-6 text-transparent bg-clip-text bg-gradient-to-r from-[#FF998F] to-[#FFF7E8]">
             King Voice
           </div>
-          <img
-            loading="lazy"
-            src={frequencyLogo}
-            alt=""
-            className="object-contain z-10 mt-0 mb-0 ml-52 aspect-square w-[92px] max-md:mb-2.5"
-          />
+          <span className="absolute top-[42%] right-[31.5%]">
+            <img loading="lazy" src={frequencyLogo} alt="" className="w-20 h-20" />
+          </span>
         </div>
       </div>
 
       {/* Main Content Section */}
       <div className="flex justify-between items-center">
         {/* Features List - Left Side */}
-        <div className="flex flex-col gap-6 text-white">
+        <div className="flex flex-col gap-6 text-white ml-8">
           {voiceFeatures.slice(0, 3).map((feature, index) => (
             <div key={index} className="flex items-center gap-4">
               <img
@@ -66,22 +65,27 @@ function KingVoiceSection() {
                 alt=""
                 className="w-12 h-12 object-contain rounded-lg"
               />
-              <div className="text-lg">{feature.title}</div>
+              <div className="text-lg text-transparent bg-clip-text bg-gradient-to-r from-[#FF998F] to-[#FFF7E8]">
+                {feature.title}
+              </div>
             </div>
           ))}
         </div>
 
         {/* Phone Images in Center */}
-        <div className="flex items-center">
+        {/* Phone Images in Center */}
+        <div className="flex items-center -mt-20">
+          {" "}
+          {/* Adjusted negative margin */}
           <img
             src={phoneImg}
             alt="Circle One Phone"
-            className="object-contain h-64"
+            className="object-contain h-[90%] max-h-[450px]" // Increase height as needed
           />
         </div>
 
         {/* Features List - Right Side */}
-        <div className="flex flex-col gap-6 text-white">
+        <div className="flex flex-col gap-6 text-white mr-8">
           {voiceFeatures.slice(3, 6).map((feature, index) => (
             <div key={index} className="flex items-center gap-4">
               <img
@@ -89,7 +93,9 @@ function KingVoiceSection() {
                 alt=""
                 className="w-12 h-12 object-contain rounded-lg"
               />
-              <div className="text-lg">{feature.title}</div>
+              <div className="text-lg text-transparent bg-clip-text bg-gradient-to-r from-[#FF998F] to-[#FFF7E8]">
+                {feature.title}
+              </div>
             </div>
           ))}
         </div>
