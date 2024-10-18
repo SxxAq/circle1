@@ -42,7 +42,7 @@ function LanyardSection() {
             <div className="mt-8 flex items-center">
               <div className="flex flex-col">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/eb71f28047a2a2f4dccebe47a97ccfa735bb3bdd1bc4f697140adca65cfef871"
+                  src='/Icon.png'
                   alt="Lanyard icon"
                   className="w-36 h-36 mb-[-10px] ml-[-30px]"
                 />
